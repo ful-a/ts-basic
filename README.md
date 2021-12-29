@@ -22,7 +22,12 @@ ___
 youtube [【日本一わかりやすいTypeScript入門】基本の型定義とアノテーション](https://www.youtube.com/watch?v=KQhyHHQrcic&list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad&index=4)  
 github https://github.com/deatiger/ts-basic-demo/tree/feature-basic-types
 ___  
-
+  
+  
+### add typeScript function demo
+youtube [【日本一わかりやすいTypeScript入門】関数のパラメーターと戻り値に型をつける](https://www.youtube.com/watch?v=obdbskaarVQ&list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad&index=5)  
+github https://github.com/deatiger/ts-basic-demo/tree/feature-function-types  
+___  
 
 
 *template*
