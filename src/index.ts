@@ -26,8 +26,8 @@ logMessage3("Hello World!!")
 logMessage4("Hello World!!")
 // alwaysThrowError("Error")
 
-import {isUserSignIn, isUserSignIn2} from './function/parameters'
+import {isUserSignIn, isUserSignIn2, restParameters} from './function/parameters'
 isUserSignIn('abc', 'ful')
 isUserSignIn('def')
 isUserSignIn2('abc')
-
+console.log( restParameters(100, 200, 300, 400, 500) )

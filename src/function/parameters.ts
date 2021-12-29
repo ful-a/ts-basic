@@ -19,3 +19,14 @@ export const isUserSignIn2 = (userId: string, userName: string = 'notName user')
     return false
   }
 }
+
+// 可変数引数を引数にした関数
+// ...引数 可変数引数
+export const restParameters = (...productsPrice: number[]) => {
+  // 配列に対して
+  // reduce((現在の処理結果, 処理をする配列の要素) => { 処理内容 })
+  return productsPrice.reduce((prevTotal: number, productPrice: number) => {
+    return prevTotal + productPrice
+  // }, 初期値)
+  }, 0)
+}
