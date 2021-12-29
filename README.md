@@ -25,10 +25,8 @@ ___
   
   
 ### add typeScript function demo
-youtube []()  
-github  
-  
-qiita []()
+youtube [【日本一わかりやすいTypeScript入門】関数のパラメーターと戻り値に型をつける](https://www.youtube.com/watch?v=obdbskaarVQ&list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad&index=5)  
+github https://github.com/deatiger/ts-basic-demo/tree/feature-function-types  
 ___  
 
 
