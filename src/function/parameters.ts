@@ -30,3 +30,17 @@ export const restParameters = (...productsPrice: number[]) => {
   // }, 初期値)
   }, 0)
 }
+
+// 呼び出しシグネチャ
+// type 変数名 = (引数: 型名) => 返り値の型名
+type UserCheck = (userId: string, userName?: string) => boolean
+// export const isUserSignIn3 = (userId: string, userName?: string): boolean => {
+export const isUserSignIn3: UserCheck = (userId, userName) => {
+  if (userId === "abc") {
+    console.log('User is signed in! Username is', userName)
+    return true
+  } else {
+    console.log('User isn\'t sign in!')
+    return false
+  }
+}
