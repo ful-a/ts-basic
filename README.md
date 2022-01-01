@@ -28,7 +28,12 @@ ___
 youtube [【日本一わかりやすいTypeScript入門】関数のパラメーターと戻り値に型をつける](https://www.youtube.com/watch?v=obdbskaarVQ&list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad&index=5)  
 github https://github.com/deatiger/ts-basic-demo/tree/feature-function-types  
 ___  
+  
 
+### add show type with alias
+youtube [【日本一わかりやすいTypeScript入門】型エイリアス(type)でオブジェクトの型定義](https://www.youtube.com/watch?v=2DoYdw-rvL0&list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad&index=6)  
+github https://github.com/deatiger/ts-basic-demo/tree/feature-object-types  
+___  
 
 *template*
 ### title
