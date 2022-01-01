@@ -10,7 +10,7 @@ export const isUserSignIn = (userId: string, userName?: string): boolean => {
 }
 
 // 引数に初期値を設定した関数
-export const isUserSignIn2 = (userId: string, userName: string = 'notName user'): boolean => {
+export const isUserSignIn2 = (userId: string, userName = 'notName user'): boolean => {
   if (userId === "abc") {
     console.log('User is signed in! Username is', userName)
     return true

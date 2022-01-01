@@ -1,9 +1,9 @@
 export const objectSample = () => {
   // 呼び出すことができないオブジェクト型
-  const getObject: object = {
-    name: 'furu',
-    age: 27
-  }
+  // const getObject: object = {
+  //   name: 'furu',
+  //   age: 27
+  // }
   // console.log(getObject.name);
 
   // オブジェクトを呼び出すには
@@ -23,7 +23,7 @@ export const objectSample = () => {
   console.log(`he is ${getObject2.name}, ${getObject2.age} years old`);
 
   // オプショナルとリードオンリー
-  let getObject3: {
+  const getObject3: {
     firstName: string,
     readonly lastName: string,
     gender?: string
@@ -42,9 +42,9 @@ export const objectSample = () => {
 
 // 型定義を先にする
 export const objectSample2 = () => {
-let capitals: {
+const capitals: {
   // [変数: 変数の型名]: 変数の値の型名
-  [cuntryName: string]: String
+  [cuntryName: string]: string
   } = {
     Japan: 'tokyo',
     Korea: 'seoul'

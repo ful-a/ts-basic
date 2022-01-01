@@ -1,5 +1,5 @@
 export default function notExistSample() {
-  let name = null
+  const name = null
   console.log('#5 this type is', typeof name, 'and value is', name)
 
   // name = 'ful'
@@ -7,11 +7,11 @@ export default function notExistSample() {
   if (name) {
     console.log('I\'m', name)
   } else {
-    console.log('I dont have name\, but', typeof name)
+    console.log('I dont have name, but', typeof name)
   }
 
   // null と undefined の調べ方は一緒なのでややこしい
-  let someone = undefined
+  const someone = undefined
   console.log('#6 this type is', typeof someone, 'and value is', someone)
   if (someone) {
     console.log('Are you look', someone, '?')

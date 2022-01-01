@@ -5,14 +5,14 @@ export const aliasSample = () => {
     locatuon: string,
     age: number
   }
-  let user: profile = {
+  const user: profile = {
     gender: 'male',
     locatuon: 'osaka',
     age: 28
   }
   console.log(user);
 
-  let user2: profile = {
+  const user2: profile = {
     gender: 'female',
     locatuon: 'kobe',
     age: 21
