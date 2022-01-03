@@ -34,13 +34,20 @@
 
 // isUserSignIn3('abc')
 
-// オブジェクト型の利用
-import {objectSample, objectSample2} from './object/object'
-objectSample()
-objectSample2()
+// #5 オブジェクト型の利用
+// import {objectSample, objectSample2} from './object/object'
+// objectSample()
+// objectSample2()
 
-import { aliasSample } from './object/alias'
-aliasSample()
+// import { aliasSample } from './object/alias'
+// aliasSample()
 
+// #6 配列の型指定
+import {arraySample} from './array/array'
+arraySample()
+
+import { tupleSample, tupleSample2 } from './array/tuple'
+tupleSample()
+tupleSample2()
 
 
