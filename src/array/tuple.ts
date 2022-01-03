@@ -1,6 +1,6 @@
 export const tupleSample = () => {
   // 配列の型定義
-  let responce: [Number, String] = [100, 'foo']
+  let responce: [number, string] = [100, 'foo']
   responce = [200, 'hoge']
 
   // 2つの要素が含まれる配列と指定しているので
@@ -14,7 +14,7 @@ export const tupleSample = () => {
 
 export const tupleSample2 = () => {
   // 読み込み専用の配列
-  let readOnlyArray: readonly string[] = ['one', 'two', 'three']
+  const readOnlyArray: readonly string[] = ['one', 'two', 'three']
   // ↓の書き方でも同じ意味です
   //  readonly -> Readonlyに変わっているので注意
   // let readOnlyArray: ReadonlyArray<string> = ['one', 'two', 'three']
