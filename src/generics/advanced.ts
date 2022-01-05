@@ -53,7 +53,7 @@ export default function advancedSample() {
     }
     return result
   }
-
-  const strings = mapNumbersToStrings(numbers, (item) => String(item))
+                                  // ( 変数1,     変数2(即時関数) )
+  const strings = mapNumbersToStrings( numbers, item => String(item) )
   console.log('数値型から文字列型に変換された:', strings)
 }
