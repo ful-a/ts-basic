@@ -39,9 +39,17 @@ ___
 ### add specify type for array value
 youtube [【日本一わかりやすいTypeScript入門】積極的に使いたい配列・タプルの型定義](https://www.youtube.com/watch?v=BUSlgsUWn4I&list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad&index=7)  
 github https://github.com/deatiger/ts-basic-demo/tree/feature-array-types/src  
-  
-  
 ___  
+  
+
+### add generics type
+youtube [【日本一わかりやすいTypeScript入門】ジェネリック型を使いながらポリモーフィズムを理解する](https://www.youtube.com/watch?v=5JYZzB7MMvo&list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad&index=8)  
+github https://github.com/deatiger/ts-basic-demo/tree/feature-generic-types  
+  
+qiita [【TypeScript】Generics(ジェネリックス)を理解する](https://qiita.com/k-penguin-sato/items/9baa959e8919157afcd4)
+___  
+  
+  
 *template*
 ### title
 youtube []()  

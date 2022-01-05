@@ -43,11 +43,26 @@
 // aliasSample()
 
 // #6 配列の型指定
-import {arraySample} from './array/array'
-arraySample()
+// import {arraySample} from './array/array'
+// arraySample()
 
-import { tupleSample, tupleSample2 } from './array/tuple'
-tupleSample()
-tupleSample2()
+// import { tupleSample, tupleSample2 } from './array/tuple'
+// tupleSample()
+// tupleSample2()
+
+// #7 ジェネリック型の指定
+import { basicTypeNumber, basicTypeString, genericsTypeNumber, genericsTypeString } from './generics/basic'
+const users: string[] = ['ful', 'ash', 'jack']
+basicTypeString('tom')
+
+const numbers: number[] = [100, 200, 300]
+basicTypeNumber(400)
+
+genericsTypeString('tom', users)
+genericsTypeNumber(400, numbers)
+
+import genericsAdvance from './generics/advanced'
+genericsAdvance()
+
 
 
