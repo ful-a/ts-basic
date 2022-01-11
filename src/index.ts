@@ -51,18 +51,49 @@
 // tupleSample2()
 
 // #7 ジェネリック型の指定
-import { basicTypeNumber, basicTypeString, genericsTypeNumber, genericsTypeString } from './generics/basic'
-const users: string[] = ['ful', 'ash', 'jack']
-basicTypeString('tom')
+// import { basicTypeNumber, basicTypeString, genericsTypeNumber, genericsTypeString } from './generics/basic'
+// const users: string[] = ['ful', 'ash', 'jack']
+// basicTypeString('tom')
 
-const numbers: number[] = [100, 200, 300]
-basicTypeNumber(400)
+// const numbers: number[] = [100, 200, 300]
+// basicTypeNumber(400)
 
-genericsTypeString('tom', users)
-genericsTypeNumber(400, numbers)
+// genericsTypeString('tom', users)
+// genericsTypeNumber(400, numbers)
 
-import genericsAdvance from './generics/advanced'
-genericsAdvance()
+// import genericsAdvance from './generics/advanced'
+// genericsAdvance()
+
+// #7 +1 abstract
+import {abstractSample} from './more/abstract'
+const takashi = new abstractSample("Takashi", 24, "male")
+takashi.hello();
+
+// import {Piece} from './class/shogi'
+// const sammple = new Piece(1, '1')
+// console.log(sammple.call());
+
+// sammple.call()
+
+import { Calc, Calc2, Calc3, User, Users } from './more/constructor'
+const user = new User(1)
+user.m()
+console.log(user.name);
+
+const users = new Users(1, 'Taro')
+users.hello()
+
+const calc = new Calc(1)
+console.log(calc.add());
+
+const calc2 = new Calc2
+console.log(calc2.add(1, '3'));
+
+const calc3 = new Calc3(1, 5)
+console.log(calc3.add());
+
+
+
 
 
 
