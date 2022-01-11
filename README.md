@@ -50,6 +50,18 @@ qiita [【TypeScript】Generics(ジェネリックス)を理解する](https://q
 ___  
   
   
+### add class with typescript and more
+youtube [【日本一わかりやすいTypeScript入門】TypeScriptで学ぶオブジェクト指向開発](https://www.youtube.com/watch?v=7u8o1r0LkHU&list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad&index=10)  
+github https://github.com/deatiger/ts-basic-demo/tree/feature-object-oriented/src   
+___  
+  
+
+#### その他参考にしたサイト  
+- [TypeScript 基礎をまとめる](https://zenn.dev/kei_nishikawa/articles/bc65705009ae1d)  
+- [エイリアス (alias)とは｜「分かりそう」で「分からない」でも「分かった」気になれるIT用語辞典](https://wa3.i-3-i.info/word1149.html)  
+- [【TypeScript】クラスとインターフェース](https://b1san-blog.com/post/ts/ts-class/)  
+- qiita [TypeScript初心者が知っておくと嬉しいこと](https://qiita.com/kotaonaga/items/13bec787769d6e8efc52)
+
 *template*
 ### title
 youtube []()  
